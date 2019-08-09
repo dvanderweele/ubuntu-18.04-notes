@@ -1,41 +1,41 @@
 To update the index that apt/ubuntu has so that
 it knows about the latest available software:
-
-	sudo apt update
-
+```bash
+sudo apt update
+```
 To search for a package, using any [keyword], 
 via apt:
-
-	sudo apt search [keyword]
-
+```bash
+sudo apt search [keyword]
+```
 To add a repository called universe to apt:
-
-	sudo add-apt-repository universe
-
+```bash
+sudo add-apt-repository universe
+```
 To install a package called [name] via apt:
-
-	sudo apt install [name]
-
+```bash
+sudo apt install [name]
+```
 To remove a package called [name] via apt:
-
-	sudo apt remove [name]
-
+```bash
+sudo apt remove [name]
+```
 To remove a package called [name] along with
 any of its config files in the /etc directory:
-
-	sudo apt remove --purge [name]
-
+```bash
+sudo apt remove --purge [name]
+```
 To upgrade all packages that have available upgrades
 which do not require the installation or removal of 
 other packages:
-
-	sudo apt upgrade 
-
+```bash
+sudo apt upgrade 
+```
 To upgrade all packages that have available upgrades 
 including those which require the installation or removal 
 of other packages:
-	
-	sudo apt upgrade
-	sudo apt dist-upgrade
-
+```bash
+sudo apt upgrade
+sudo apt dist-upgrade
+```
 
