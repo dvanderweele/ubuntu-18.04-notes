@@ -1,3 +1,6 @@
+# User & Group Management
+## Essentials 
+
 To add a new user called [username]:
 ```bash
 sudo adduser [username]

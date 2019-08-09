@@ -1,23 +1,27 @@
+# Backgrounding & Foregrounding Processes
+# Essentials
+
 If you are viewing HTOP and want to return 
 to your shell, while letting HTOP run in the 
 background:
-
-	CTRL+Z
-
+```bash
+CTRL+Z
+```
 A command to view your current background jobs:
-
-	jobs 
-
+```bash
+jobs 
+```
 If you only have one background job, how do you 
 bring it back to the foreground:
-
-	fg
-
+```bash
+fg
+```
 How do you use fg to bring back a specific background
 job, say job #2:
-
-	fg 2
-
+```bash
+fg 2
+```
 A command to launch htop straight to the background:
-
-	htop &
+```bash
+htop &
+```

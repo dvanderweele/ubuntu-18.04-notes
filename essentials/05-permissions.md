@@ -1,3 +1,6 @@
+# Permissions 
+## Essentials 
+
 To change the user owner of [filename] 
 so that [username] owns it:
 ```bash

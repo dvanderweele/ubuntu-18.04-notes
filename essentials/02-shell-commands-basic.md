@@ -1,3 +1,6 @@
+# Basic BASH Commands 
+## Essentials
+
 ls is to list files. To give a long listing of all files 
 in a directory, use these flags:
 ```bash

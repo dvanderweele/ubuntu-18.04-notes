@@ -1,43 +1,47 @@
+# Checking Logs 
+## Essentials
+
 The directory in which all logs are stored:
-
-	/var/log
-
+```bash
+/var/log
+```
 The log file containing login history for system:
-
-	auth.log
-
+```bash
+auth.log
+```
 A kind of 'catch-all' log file that contains all kinds 
 of logs pertaining to things that happen on the system:
-
-	syslog
-
+```bash
+syslog
+```
 Display the first ten lines of the syslog file:
-
-	head /var/log/syslog
-
+```bash
+head /var/log/syslog
+```
 Display the last ten lines of the syslog file:
-
-	tail /var/log/syslog
-
+```bash
+tail /var/log/syslog
+```
 Display the first 100 lines of the syslog file:
-
-	head -n 100 /var/log/syslog
-
+```bash
+head -n 100 /var/log/syslog
+```
 Display the last 50 lines of the syslog file:
-
-	tail -n 100 /var/log/syslog
-
+```bash
+tail -n 100 /var/log/syslog
+```
 Display the last ten lines of the syslog file, 
 and continue to print any realtime updates to it:
-
-	tail -f /var/log/syslog
-
+```bash
+tail -f /var/log/syslog
+```
 A newer command to view logs pertaining to a particular
 systemd unit, say apache2:
-
-	journactl -u apache2
-
+```bash
+journactl -u apache2
+```
 The version of the command immediately above that also 
 continues to print any realtimes updates:
-
-	journalctl -fu apache2
+```bash
+journalctl -fu apache2
+```

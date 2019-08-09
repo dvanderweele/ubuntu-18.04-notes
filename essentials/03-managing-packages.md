@@ -1,3 +1,6 @@
+# Package Management
+## Essentials 
+
 To update the index that apt/ubuntu has so that
 it knows about the latest available software:
 ```bash

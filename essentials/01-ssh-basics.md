@@ -1,3 +1,6 @@
+# SSH Basics 
+## Essentials
+
 openssh-server should be installed by default on ubuntu 18.04.
 
 If it isn't, update your package list:	
