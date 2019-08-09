@@ -26,8 +26,7 @@ A command to restart the ssh service after editing the config file:
 ```bash
 sudo systemctl restart ssh
 ```
-**After editing the ssh config file and restarting the service, **before you logout**, open a separate terminal on your local machine and attempt to ssh into the server via the same [username] account, just to make sure everything still works.*
-Step two of securing Ope
+*After editing the ssh config file and restarting the service, **before you logout**, open a separate terminal on your local machine and attempt to ssh into the server via the same [username] account, just to make sure everything still works.*
 
 ### Step Two
 The command, on your local machine, to generate an ssh key for the purpose of automating the login process with your remote server so that password authentication can be disabled:
