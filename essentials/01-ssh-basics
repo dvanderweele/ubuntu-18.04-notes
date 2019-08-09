@@ -1,9 +1,9 @@
 openssh-server should be installed by default on ubuntu 18.04.
 
-If it isn't, update your package list:
-
-	sudo apt update
-
+If it isn't, update your package list:	
+```bash
+sudo apt update
+```
 Then install via apt:
 
 	sudo apt install openssh-server
