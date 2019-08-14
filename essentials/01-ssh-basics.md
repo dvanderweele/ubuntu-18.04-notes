@@ -27,3 +27,18 @@ That command is short for:
 ```bash
 ip addr show
 ```
+
+## SSH for GitHub
+Generate a new ssh key, substituting your email address:
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+Start ssh-agent in background:
+```bash
+eval "$(ssh-agent -s)"
+```
+Add your private ssh key to the agent:
+```bash
+ssh-add ~/.ssh/id_rsa
+```
+
